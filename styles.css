@@ -1,0 +1,54 @@
+/* angkor-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Angkor';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/angkor-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* caveat-brush-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Caveat Brush';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/caveat-brush-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+h1, h2, h3 {
+     font-family: 'Angkor';
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color:#e18956;
+    text-shadow:
+        -2px -2px 0 black, /* Top-left */
+         1px -1px 0 black, /* Top-right */
+        -1px  1px 0 black, /* Bottom-left */
+         1px  1px 0 black; /* Bottom-right */
+    }
+
+p {
+     font-family: 'Caveat Brush';
+}
+
+html {
+    background-image: url(images/Cat\ Dog\ Background\ 2.png);
+}
+
+body{
+    margin: 70px;
+}
+
+aside {
+    background-color:#e18956;
+     float: right;
+            width: 26%; 
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-sizing: border-box;
+
+}
