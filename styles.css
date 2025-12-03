@@ -26,6 +26,7 @@
 
 .books {
 	background-image: url(images/home.png);
+	background-repeat: no-repeat;
 }
 
 h1, h2, h3 {
