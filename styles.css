@@ -25,7 +25,11 @@
 }
 
 h1, h2, h3 {
-     font-family: 'Angkor';
+      font-family: 'Fredoka';
+}
+
+.letter {
+   font-family: 'Dancing Script';
 }
 
 h1 {
@@ -40,7 +44,7 @@ h1 {
     }
 
 p {
-     font-family: 'Caveat Brush';
+      font-family: 'Elsie'
 }
 
 html {
