@@ -59,11 +59,30 @@ p {
 }
 
 nav {
-  
+	justify-content: center;
+}
+
+.main {
+  height: 400px;
+  width: 700px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-bottom: 50px;
 }
 
 ul {
-  list-
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1.4em;
+  overflow: hidden;
+  background-color: #355a22;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+
 }
 
 
