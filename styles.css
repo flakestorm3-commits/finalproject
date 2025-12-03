@@ -44,7 +44,7 @@ h1 {
     }
 
 .intro {
-  background-color: #2f2413;
+  background-color: lightbrown;
   border-radius: .5em;
   border: 100px;
   box-sizing: border-box;
@@ -58,9 +58,7 @@ p {
       font-family: 'Elsie'
 }
 
-html {
-    background-image: url(images/Cat\ Dog\ Background\ 2.png);
-}
+
 
 body{
     margin: 70px;
