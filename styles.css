@@ -1,19 +1,27 @@
-/* angkor-regular - latin */
+/* dancing-script-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Angkor';
+  font-family: 'Dancing Script';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/angkor-v35-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/dancing-script-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-/* caveat-brush-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Caveat Brush';
+  font-family: 'Elsie';
   font-style: normal;
   font-weight: 400;
-  src: url('fonts/caveat-brush-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  src: url('fonts/elsie-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fredoka-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fredoka-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
 h1, h2, h3 {
