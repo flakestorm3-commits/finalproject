@@ -1,0 +1,210 @@
+/* dancing-script-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/dancing-script-v29-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Elsie';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/elsie-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* fredoka-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Fredoka';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/fredoka-v17-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+.books {
+	background-image: url(images/home.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.interview {
+	background-image: url(images/Interview.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.town {
+	background-image: url(images/Town.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+  width: 100%;
+}
+
+.mail {
+	background-image: url(images/Mail.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
+
+h1, h2, h3 {
+      font-family: 'Fredoka';
+}
+
+.letter {
+   font-size: 1.95em;
+    font-family: 'Dancing Script';
+}
+
+h1 {
+    text-align: center;
+    font-size: 3em;
+    color:#e18956;
+    text-shadow:
+        -2px -2px 0 black, /* Top-left */
+         1px -1px 0 black, /* Top-right */
+        -1px  1px 0 black, /* Bottom-left */
+         1px  1px 0 black; /* Bottom-right */
+    }
+
+.intro {
+  background-color: #f2e9da;
+  border-radius: .5em;
+  border: 100px;
+  box-sizing: border-box;
+  border: 4px solid black; 
+  padding: 20px;          
+  border-radius: 10px;    
+ opacity: 0.7;
+}
+
+.theinterview{
+  background-color: #f2e9da;
+  border-radius: .5em;
+  border: 100px;
+  box-sizing: border-box;
+  border: 4px solid black; 
+  padding: 20px;          
+  border-radius: 10px;    
+ opacity: 0.8;
+}
+
+
+
+ .hidden {
+  color: #f2e9da;
+}
+
+p {
+      font-family: 'Elsie'
+}
+
+nav {
+	justify-content: center;
+}
+
+.main {
+  height: 400px;
+  width: 700px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  margin-bottom: 50px;
+}
+/* Navigation */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 1.4em;
+  overflow: hidden;
+  background-color: #355a22;
+  justify-content: center;
+}
+
+ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  background-color: #111111;
+}
+
+nav .container2 {
+  flex-direction: row;
+  justify-content: center;
+}
+
+ul li {
+  float: left;
+
+}
+
+
+
+body{
+    margin: 70px;
+}
+
+aside {
+    background-color:#e18956;
+     float: right;
+            width: 26%; 
+            padding: 20px;
+            border: 2px solid #ccc;
+            box-sizing: border-box;
+
+}
+
+.container {
+  flex-direction: row ; row-reverse ; column | column-reverse;
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  width: 300px;
+  height: 200px;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  opacity:0.9;
+}
