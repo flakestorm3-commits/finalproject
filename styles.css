@@ -164,7 +164,7 @@ aside {
 
 .container {
   flex-direction: row ; row-reverse ; column | column-reverse;
-  display: flex;
+  display: grid;
   gap: 20px;
 	
 }
