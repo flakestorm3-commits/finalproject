@@ -166,6 +166,7 @@ aside {
   flex-direction: row ; row-reverse ; column | column-reverse;
   display: flex;
   gap: 20px;
+	flex-wrap: wrap;
 }
 
 img {
